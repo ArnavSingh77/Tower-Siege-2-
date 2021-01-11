@@ -65,7 +65,7 @@ function setup() {
   block21=new Box(860,205,30,40);
 
   //Middle level 
-  block22=new Box2(870,165,30,40);
+  block22=new Box2(850,165,30,40);
   block23=new Box2(800,165,30,40);
   block24=new Box2(830,165,30,40);
 

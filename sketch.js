@@ -28,49 +28,49 @@ function setup() {
   world = engine.world;
 
   //first ground
-  ground1=new Ground(390+60,310,270,12);
+  ground1=new Ground(450,310,270,12);
 
   //First level
-  block1=new Box(300+60,275,30,40);
-  block2=new Box(330+60,275,30,40);
-  block3=new Box(360+60,275,30,40);
-  block4=new Box(390+60,275,30,40);
-  block5=new Box(420+60,275,30,40);
-  block6=new Box(450+60,275,30,40);
-  block7=new Box(480+60,275,30,40);
+  block1=new Box(360,275,30,40);
+  block2=new Box(390,275,30,40);
+  block3=new Box(420,275,30,40);
+  block4=new Box(450,275,30,40);
+  block5=new Box(480,275,30,40);
+  block6=new Box(510,275,30,40);
+  block7=new Box(540,275,30,40);
 
   //Second level
-  block8=new Box1(330+60,235,30,40);
-  block9=new Box1(360+60,235,30,40);
-  block10=new Box1(390+60,235,30,40);
-  block11=new Box1(420+60,235,30,40);
-  block12=new Box1(450+60,235,30,40);
+  block8=new Box1(390,235,30,40);
+  block9=new Box1(420,235,30,40);
+  block10=new Box1(450,235,30,40);
+  block11=new Box1(480,235,30,40);
+  block12=new Box1(510,235,30,40);
 
   //Third level
-  block13=new Box2(360+60,195,30,40);
-  block14=new Box2(390+60,195,30,40);
-  block15=new Box2(420+60,195,30,40);
+  block13=new Box2(420,195,30,40);
+  block14=new Box2(450,195,30,40);
+  block15=new Box2(480,195,30,40);
   
   //Fouth level
-  block16=new Box3(390+60,155,30,40);
+  block16=new Box3(450,155,30,40);
 
   //Second ground
   ground2=new Ground(800,225,210,12);
 
   //Bottom level
-  block17=new Box(800-60,205,30,40);
-  block18=new Box(800-30,205,30,40);
+  block17=new Box(840,205,30,40);
+  block18=new Box(770,205,30,40);
   block19=new Box(800,205,30,40);
-  block20=new Box(800+30,205,30,40);
-  block21=new Box(800+60,205,30,40);
+  block20=new Box(830,205,30,40);
+  block21=new Box(860,205,30,40);
 
   //Middle level 
-  block22=new Box2(800-30,205-40,30,40);
-  block23=new Box2(800,205-40,30,40);
-  block24=new Box2(800+30,205-40,30,40);
+  block22=new Box2(870,165,30,40);
+  block23=new Box2(800,165,30,40);
+  block24=new Box2(830,165,30,40);
 
   //Top level
-  block25=new Box1(800,205-80,30,40);
+  block25=new Box1(800,125,30,40);
 
   //Lower Ground
   ground3=new Ground(500,390,1000,20);

@@ -147,7 +147,7 @@ function draw() {
   strokeWeight(0);
   fill("white");
   textSize(22);
-  text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",150,30);
+  text("Drag the mouse to play. Press space to get the second chance.",150,30);
   
 }
 //Mouse drag function to adjust the aim of hexagon

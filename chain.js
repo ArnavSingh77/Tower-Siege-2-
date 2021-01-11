@@ -30,24 +30,7 @@ class SlingShot{
             stroke(107, 239, 136);
             strokeWeight(4);
             line(pointA.x,pointA.y,pointB.x,pointB.y);
-           
-            
-
-           /* if(pointA.x<220)
-            {
-                strokeWeight(8);
-                stroke(color(68,6,6));
-                line(pointA.x-20, pointA.y, pointB.x-20, pointB.y);
-                line(pointA.x-20,pointA.y,pointB.x+30,pointB.y);
-                image(this.image2,pointA.x-30,pointA.y-20,10,35);
-                
-            }
-            else
-            {
-                line(pointA.x+15, pointA.y, pointB.x-10, pointB.y);
-                line(pointA.x+15,pointA.y,pointB.x+30,pointB.y);
-                image(this.image2,pointA.x+25,pointA.y-10,10,35);
-            }*/
+          
         }
 
        
